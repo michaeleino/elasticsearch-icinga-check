@@ -5,7 +5,7 @@ use Getopt::Std;
 use Time::Piece;
 use DateTime::Format::Strptime;
 
-my $args = "drc:w:s:a:t:f:q:h:p:x:n:i:";
+my $args = "drc:w:s:a:t:f:q:h:p:x:n:i:m:";
 getopts("$args", \%opt);
 
 if(!defined $opt{s}){
